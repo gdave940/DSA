@@ -10,3 +10,14 @@ class Solution{
     }
 }
 ```
+
+https://practice.geeksforgeeks.org/problems/nth-fibonacci-number1335/1?utm_source=inf&utm_medium=inf%2Fcampaign+&utm_campaign=codein10_fibonacci_YT
+```
+class Solution {
+    static long nthFibonacci(long n){
+        if(n==0){return 0;}
+        if(n==1){return 1;}
+        return nthFibonacci(n-1)+nthFibonacci(n-2);            
+    }
+}
+```
