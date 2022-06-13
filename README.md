@@ -21,3 +21,15 @@ class Solution {
     }
 }
 ```
+https://practice.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
+```
+class Solution
+{
+    //Function to count number of ways to reach the nth stair.
+    int countWays(int n)
+    {
+        if(n==1 || n==2){return n;}
+        return countWays(n-1)+countWays(n-2);
+    }
+}
+```
